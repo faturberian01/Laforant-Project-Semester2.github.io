@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Register</title>
+	<link rel="stylesheet" href="register.css">
+	<link rel="icon" href="gbr/logo.png">
+	<script src="login.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+</head>
+		<body>
+		<form class="login-form">
+		<h1>Buat Akun</h1>
+
+		<div class="txt">
+			<label >Email</label>
+			<input data-placeholder="Email" id="Email" type="text">
+		</div>
+
+	<div class="txt">
+		<label >Username</label>
+	  <input data-placeholder="Username" id="Username" type="Username">
+	</div>
+
+	<div class="txt">
+		<label >Password</label>
+		<input data-placeholder="Password" id="Password" type="password">
+	</div>
+
+	<div class="txt">
+		<label >Date of birth</label>
+		<input data-placeholder="Date" id="date" type="Date">
+	</div>
+
+	<div class="txt">
+  	<label data-placeholder="Nationality" id="national">Nationality</label>
+		<select name="member" id="member">
+		<option value="Choose One">Choose One</option>
+		<option value="Indonesia">Indonesia</option>
+		<option value="Korea Selatan">Korea Selatan</option>
+		<option value="Amerika Serikat">Amerika Serikat</option>
+		<option value="Jepang">Jepang</option>
+		<option value="Brazil">Brazil</option>
+		<option value="Singapura">Singapura</option>
+	</select>
+	</div>
+
+	<div class="txt">
+  	<input type="checkbox" name="agree" id="agree">
+  	<label >Agree to terms and conditions</label>
+	</div>
+
+
+	<button type="submit" class="logbtn" onclick="validate()">Submit</button>
+	<div class="bottom-text">
+		@Copyright2021 Laforant Indonesia
+	</div>
+
+</form>
+
+
+	
+
+<body>
+</html>
